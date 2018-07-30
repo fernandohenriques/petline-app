@@ -1,6 +1,6 @@
 {
   "name": "PetLine",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "./App.js",
   "private": true,
   "scripts": {
     "start": "exp start",
