@@ -1,18 +1,18 @@
 {
   "expo": {
-    "name": "pet-line",
-    "description": "A very interesting project.",
-    "slug": "pet-line",
+    "name": "PetLine",
+    "description": "For those who want the best for their pet.",
+    "slug": "petline",
     "privacy": "public",
     "sdkVersion": "29.0.0",
     "platforms": ["ios", "android"],
-    "version": "1.0.0",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f5f5f5"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,7 +21,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fernandohenriques.petline"
+    },
+    "android": {
+      "package": "com.fernandohenriques.petline",
+      "versionCode": 1
+    },
+    "githubUrl":"https://github.com/fernandohenriques/petline-app",
+    "primaryColor":"#e45d25",
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#4b3d38"
     }
+
+
   }
 }
