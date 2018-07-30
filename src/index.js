@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import { AppLoading, Asset, Font } from 'expo';
-import RootNavigation from "./navigation/RootNavigation";
+import RootNavigation from './navigation/RootNavigation';
 
 class App extends Component {
 
@@ -11,20 +11,7 @@ class App extends Component {
     };
   }
 
-  render() {
-    const { isLoadingComplete } = this.state;
-    if (!isLoadingComplete)
-      return (
-        <AppLoading
-          startAsync={this._loadResourcesAsync}
-          onError={this._handleLoadingError}
-          onFinish={this._handleFinishLoading}
-        />
-      );
-    else return <RootNavigation />;
-  }
-
-  _loadResourcesAsync = async () => {
+  async loadResourcesAsync() {
     return Promise.all([
       Asset.loadAsync([
         require('../assets/images/logo.png'),
@@ -35,11 +22,24 @@ class App extends Component {
         'brandongrotesque-regular': require('../assets/fonts/BrandonGrotesque-Regular.otf'),
       }),
     ]);
-  };
+  }
 
-  _handleLoadingError = error => console.warn(error);
+  handleLoadingError = error => console.warn(error);
 
-  _handleFinishLoading = () => this.setState({ isLoadingComplete: true });
+  handleFinishLoading = () => this.setState({ isLoadingComplete: true });                                                                                                                                                                                                                                                    
+
+  render() {
+    const { isLoadingComplete } = this.state;
+    if (!isLoadingComplete)
+      return (
+        <AppLoading
+          startAsync={this.loadResourcesAsync}
+          onError={this.handleLoadingError}
+          onFinish={this.handleFinishLoading}
+        />
+      );                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    else return <RootNavigation />;
+  }
 }
 
 export default App;
