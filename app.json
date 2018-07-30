@@ -31,7 +31,7 @@
     "githubUrl":"https://github.com/fernandohenriques/petline-app",
     "primaryColor":"#e45d25",
     "androidStatusBar": {
-      "barStyle": "dark-content",
+      "barStyle": "light-content",
       "backgroundColor": "#4b3d38"
     }
 

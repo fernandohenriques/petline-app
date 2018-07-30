@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
     },
     imageBackground: {
       flex: 1,
-      paddingVertical: 15,
     },
 });
+
+export default styles;
