@@ -7,7 +7,8 @@
     "android": "exp build:android",
     "ios": "exp build:ios",
     "expo-eject": "exp detach",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ./"
   },
   "jest": {
     "preset": "jest-expo"
@@ -19,15 +20,22 @@
     "react-navigation": "^2.9.3"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-react-native": "^3.2.1",
     "jest-expo": "29.0.0"
   },
   "author": "Fernando Henriques",
   "contributors": [
     "Gabriel Moraes"
   ],
-  "repository" : { 
-    "type" : "git",
-    "url" : "https://github.com/fernandohenriques/petline-app"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fernandohenriques/petline-app"
   },
   "license": "MIT"
 }

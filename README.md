@@ -53,6 +53,13 @@ yarn ios
 
 ### Running tests
 
+#### Linter validations 
+```
+cd petline-app/
+yarn lint
+```
+
+#### Unit tests
 ```
 cd petline-app/
 yarn test
