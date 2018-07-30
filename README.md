@@ -1,4 +1,4 @@
-<img src="http://fenrnadohenriques.com.br/petline-app/logo.png" width="100px" height="100px" align="left" />
+<img src="http://www.fernandohenriques.com.br/petline-app/icon.png" width="90px" height="90px" align="left" />
 
 # PetLine
 
@@ -61,13 +61,14 @@ yarn test
 
 ## Built With
 
-* [Atomic Design](http://atomicdesign.bradfrost.com/)
-* [React Native](https://facebook.github.io/react-native/)
-* [Expo SDK](https://docs.expo.io/versions/latest/)
-* [Yarn](https://yarnpkg.com/)
-* [Jest](https://jestjs.io/)
-* [ESLint](https://eslint.org/)
-* [Flow](https://flow.org/)
+* [Atomic Design](http://atomicdesign.bradfrost.com/) - Pattern for writing components
+* [React Native](https://facebook.github.io/react-native/) - A framework for building native apps using React
+* [Expo SDK](https://docs.expo.io/versions/latest/) - Set of tools, libraries and services
+* [Yarn](https://yarnpkg.com/) - Dependency Manager
+* [Jest](https://jestjs.io/) - Framework to testc JavaScript
+* [ESLint](https://eslint.org/) - Linter for JavaScript and JSX
+* [Flow](https://flow.org/) - Static Type Checker
+* [Babel](https://babeljs.io/) - Transpiler code to ES6+
 
 
 ## Authors
