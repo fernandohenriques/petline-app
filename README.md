@@ -1,4 +1,4 @@
-<img src="http://www.fernandohenriques.com.br/petline-app/icon.png" width="90px" height="90px" align="left" />
+<img src="http://www.fernandohenriques.com.br/petline-app/icon.png" width="111px" height="111px" align="left" />
 
 # PetLine
 
@@ -9,7 +9,7 @@ For those who want the best for their pet
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### Pre requisites
 
 ```
 $ node --version
